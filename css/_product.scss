@@ -1,0 +1,167 @@
+
+.carousel {
+& { 
+    position: relative;
+    height: 777px;
+    background-color:#F7F7F7
+}
+
+&_img-box__icon{
+    width: 47px;
+    height: 47px;
+  
+}
+
+&__card{
+padding-top: 11px;
+padding-bottom: 42px;
+display: block;
+margin: 0 auto;
+}
+}
+
+.img-arrow{
+
+&__left {
+    position: absolute;
+    top: calc(50% - 23px);
+}
+&__right { 
+    position: absolute;
+    right: 0;
+    top: calc(50% - 23px);
+}
+}
+
+.product-info { 
+& {
+    display: flex;
+    flex-direction: column;
+    width: 1141px;
+    height: 601px;
+    background: #FFFFFF;
+    align-items: center;
+    border: 1px solid #eaeaea;
+    margin: 0 auto;
+    position: relative;
+    top: -60px;
+}
+&__name { 
+ padding-top: 64px;
+font-weight: 300;
+font-size: 14px;
+line-height: 17px;
+color: $colorSelect;
+
+}
+
+&__hr{
+    width: 63px;
+    height: 3px;
+    box-sizing: border-box;
+    background-color:$colorSelect;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+&__header {
+    font-weight: 300;
+font-size: 18px;
+line-height: 22px;
+color: #4D4D4D;
+padding-bottom: 48px;
+}
+
+&__text { 
+font-weight: 300;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+color: #5E5E5E;
+padding-bottom: 32px;
+text-align: center;
+width: 555px;
+
+}
+&__price {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color:$colorSelect;
+    padding-bottom: 64px;
+    
+}
+
+&__hr2 {
+    width: 642px;
+    height: 1px;
+    box-sizing: border-box;
+    background-color:#EAEAEA;
+    margin-bottom: 64px;
+}
+
+&__list{
+    list-style: none;
+    display: flex;
+}
+
+&__list__item { 
+    font-size: 14px;
+    line-height: 17px;
+    color: #6f6e6e;
+    position: relative;
+    padding-right: 22px;
+    padding-bottom: 5px;
+}
+
+&__list__item::before {
+    position: absolute;
+    top: 9px;
+    right: 5px;
+    width: 8px;
+    height: 2px;
+    background-color: #6f6e6e;
+
+}
+.product__add-cart { 
+    margin-top: 48px;
+    height: 48px;
+width: 212px;
+
+}
+}
+
+.product-add{
+&__cart{
+ height: 48px;
+width: 212px;
+border: 1px solid $colorSelect;
+margin-top: 48px;
+align-items: center;
+display: flex;
+padding-top: 15px;
+padding-bottom: 15px;
+}
+
+&__cart_img{
+    padding-right: 23px;
+   padding-left: 24px;
+
+}
+
+
+&__carttext {
+font-size: 16px;
+line-height: 19px;
+color: #F26376;
+
+}
+}
+
+.featured__content__product { 
+margin-top: 126px;
+
+}
+
+
+
